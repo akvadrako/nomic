@@ -1,6 +1,6 @@
 # nomic
 
-A game with rules.
+**Points:** all: 0 target: 200
 
 ## Immutable Rules
 
