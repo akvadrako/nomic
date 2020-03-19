@@ -1,5 +1,3 @@
-# nomic
-
 **Points:** all: 0 target: 200
 
 ## Immutable Rules
