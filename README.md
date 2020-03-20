@@ -1,4 +1,13 @@
-**Points:** all: 0 target: 200
+Player      | order | points
+----------- | ----- | ------
+akvadrako   | Ba    | 8
+RamonRB     | Be    | 0
+rknegjens   | K     | 0
+roarandrock | W     | 0
+
+## New Rules
+
+there is nothing here
 
 ## Immutable Rules
 
