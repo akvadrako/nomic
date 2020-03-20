@@ -1,4 +1,3 @@
-# Notes on Nomic game
 
 ## How to play
 
