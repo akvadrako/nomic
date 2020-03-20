@@ -1,6 +1,6 @@
 player      | order | points
 ----------- | ----- | ------
-akvadrako   | Ba    | 8
+akvadrako   | Ba    | -2
 RamonRB     | Be    | 0
 rknegjens   | K     | 0
 roarandrock | W     | 0
