@@ -1,4 +1,4 @@
-Player      | order | points
+player      | order | points
 ----------- | ----- | ------
 akvadrako   | Ba    | 8
 RamonRB     | Be    | 0
