@@ -30,6 +30,8 @@ to get this:
 
 Rule 103: This definition implies that, at least initially, all new rules are mutable; immutable rules, as long as they are immutable, may not be amended or repealed; mutable rules, as long as they are mutable, may be amended or repealed; any rule of any status may be transmuted; no rule is absolutely immune to change.
 
+Rule 302: Voting AGAINST a rule does not incur any penalties or reward any benefits. To promote additional rules (and thus playing the game), voting against a rule should not be rewarded. Gaining points by voting AGAINST is unconducive to the game and should be discouraged.
+
 ## Game Resources
 
 [Homepage of designer](http://legacy.earlham.edu/~peters/nomic.htm)
