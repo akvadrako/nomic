@@ -1,7 +1,7 @@
 player      | order | points
 ----------- | ----- | ------
 akvadrako   | Ba    | -2
-RamonRB     | Be    | 0
+RamonRB     | Be    | 11
 rknegjens   | K     | 0
 roarandrock | W     | 0
 
