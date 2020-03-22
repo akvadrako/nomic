@@ -57,7 +57,7 @@ In mail and computer games, instead of throwing a die, players subtract 291 from
 
 **203.** A rule-change is adopted if and only if the vote is unanimous among the eligible voters. If this rule is not amended by the end of the second complete circuit of turns, it automatically changes to require only a simple majority.
 
-**204.** If and when rule-changes can be adopted without unanimity, the players who vote against winning proposals shall receive 10 points each.
+**204.** - Repealed.
 
 **205.** An adopted rule-change takes full effect at the moment of the completion of the vote that adopted it.
 
