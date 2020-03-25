@@ -1,10 +1,11 @@
 
-player      | order | points
------------ | ----- | ------
-akvadrako   | Ba    | -2
-RamonRB     | Be    | 11
-rknegjens   | K     | 0
-roarandrock | W     | 0
+player      | order | points | VK
+----------- | ----- | ------ | -- 
+akvadrako   | Ba    | -2     | 0
+RamonRB     | Be    | 11     | 0
+rknegjens   | K     | 12     | 0
+fpug        | P     | 0      | 0
+roarandrock | W     | 0      | 0
 
 ## Immutable rules
 
@@ -92,3 +93,9 @@ g
 This rule takes precedence over every other rule determining the winner. 
 
 **302.** Repeal of rule 204. 
+
+**303.** All player have a "voting karma" (VK) score, which is separate to the points defined in rule 112. All players begin with zero VK. A player's voting karma is modified based on how promptly they perform the voting actions of *proposing* a rule and *voting* on a rule when required to. If a player does either action *on time* (defined below) their VK score is incremented by one. If they are late to perform either action their VK score is decremented by the number of days they exceeded the *on time* deadline, rounded to the nearest 24 hours.
+
+In order to *propose* a rule *on time* the proposal must be submitted no later than 48 hours after midnight (UTC) of the day that the previous rule was voted on.
+In order to *vote* on a rule *on time* the vote must be cast no later than 24 hours after midnight (UTC) of the day the proposal was *submitted* or last *amended* or last *discussed*.
+A rule is *amended* when the proposer updates the rule via a new git commit. A rule is *discussed* when a player comments on the pull request of the rule. Successive comments by the same player without a response from other players are ignored i.e. only the time of the first comment should be considered in this case.
