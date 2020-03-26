@@ -92,8 +92,6 @@ g
 
 This rule takes precedence over every other rule determining the winner. 
 
-**302.** Repeal of rule 204. 
-
 **303.** All player have a "voting karma" (VK) score, which is separate to the points defined in rule 112. All players begin with zero VK. A player's voting karma is modified based on how promptly they perform the voting actions of *proposing* a rule and *voting* on a rule when required to. If a player does either action *on time* (defined below) their VK score is incremented by one. If they are late to perform either action their VK score is decremented by the number of days they exceeded the *on time* deadline, rounded to the nearest 24 hours.
 
 In order to *propose* a rule *on time* the proposal must be submitted no later than 48 hours after midnight (UTC) of the day that the previous rule was voted on.
