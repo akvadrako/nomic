@@ -1,4 +1,4 @@
-What happened during each proposal?
+*What happened during each proposal?*
 
 **303.** Proposal accepted. 5/5 votes.
 
