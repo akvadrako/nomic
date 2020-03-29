@@ -57,8 +57,6 @@ In mail and computer games, instead of throwing a die, players subtract 291 from
 
 **205.** An adopted rule-change takes full effect at the moment of the completion of the vote that adopted it.
 
-**206.** When a proposed rule-change is defeated, the player who proposed it loses 10 points.
-
 **207.** Each player always has exactly one vote.
 
 **208.** The winner is the first player to achieve 100 (positive) points.
@@ -97,3 +95,5 @@ This rule takes precedence over every other rule determining the winner.
 In order to *propose* a rule *on time* the proposal must be submitted no later than 48 hours after midnight (UTC) of the day that the previous rule was voted on.
 In order to *vote* on a rule *on time* the vote must be cast no later than 24 hours after midnight (UTC) of the day the proposal was *submitted* or last *amended* or last *discussed*.
 A rule is *amended* when the proposer updates the rule via a new git commit. A rule is *discussed* when a player comments on the pull request of the rule. Successive comments by the same player without a response from other players are ignored i.e. only the time of the first comment should be considered in this case.
+
+**304.** When a proposed rule-change is defeated, the player who proposed it shall subtract half of the points (rounded down to the nearest integer) he or she is about to gain in part (2) of the turn from his or her score.
