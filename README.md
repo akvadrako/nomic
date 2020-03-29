@@ -1,11 +1,11 @@
 
 player      | order | points | VK
 ----------- | ----- | ------ | -- 
-akvadrako   | Ba    | -2     | 0
-RamonRB     | Be    | 11     | 0
-rknegjens   | K     | 12     | 0
-fpug        | P     | 0      | 0
-roarandrock | W     | 0      | 0
+akvadrako   | Ba    | -2     | 1
+RamonRB     | Be    | 11     | 1
+rknegjens   | K     | 12     | 1
+fpug        | P     | 13     | 1
+roarandrock | W     | 0      | 1
 
 ## Immutable rules
 
