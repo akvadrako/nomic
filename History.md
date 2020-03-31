@@ -1,20 +1,22 @@
 *What happened during each proposal?*
 
-**305.** Repeal of §210.
+**306.** New rule.
+
+**305.** Repeal of §210 passed with 5/5 votes.
 
 > 210. Players may not conspire or consult on the making of future rule-changes unless they are team-mates.
 > 
 > The first paragraph of this rule does not apply to games by mail or computer.
 
-**304.** Amendment of §206 accepted. 5/5 votes. Old rule:
+**304.** Amendment of §206 accepted with 5/5 votes. Old rule:
 
-> **206.** When a proposed rule-change is defeated, the player who proposed it loses 10 points.
+> 206. When a proposed rule-change is defeated, the player who proposed it loses 10 points.
 
-**303.** New rule accepted. 5/5 votes.
+**303.** New rule accepted with 5/5 votes.
 
-**302.** Repeal of §204 accepted. 5/5 votes.
+**302.** Repeal of §204 accepted with 5/5 votes.
 
-> **204.** If and when rule-changes can be adopted without unanimity, the players who vote against winning proposals shall receive 10 points each.
+> 204. If and when rule-changes can be adopted without unanimity, the players who vote against winning proposals shall receive 10 points each.
 
 **301.** New rule failed with 4/5 votes:
 
