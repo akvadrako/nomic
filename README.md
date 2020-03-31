@@ -65,9 +65,9 @@ In mail and computer games, the winner is the first player to achieve 200 (posit
 
 **209.** At no time may there be more than 25 mutable rules.
 
-**210.** Players may not conspire or consult on the making of future rule-changes unless they are team-mates.
+~~**210.** Players may not conspire or consult on the making of future rule-changes unless they are team-mates.
 
-The first paragraph of this rule does not apply to games by mail or computer.
+~~The first paragraph of this rule does not apply to games by mail or computer.
 
 **211.** If two or more mutable rules conflict with one another, or if two or more immutable rules conflict with one another, then the rule with the lowest ordinal number takes precedence.
 
