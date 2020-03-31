@@ -1,11 +1,11 @@
 
 player      | order | points | VK
 ----------- | ----- | ------ | -- 
-akvadrako   | Ba    | -2     | 1
-RamonRB     | Be    | 11     | 1
-rknegjens   | K     | 12     | 1
-fpug        | P     | 13     | 1
-roarandrock | W     | 0      | 1
+akvadrako   | Ba    | -2     | 2
+RamonRB     | Be    | 11     | 2
+rknegjens   | K     | 12     | 2
+fpug        | P     | 13     | 2
+roarandrock | W     | 14     | 2
 
 ## Immutable rules
 
@@ -64,10 +64,6 @@ In mail and computer games, instead of throwing a die, players subtract 291 from
 In mail and computer games, the winner is the first player to achieve 200 (positive) points.
 
 **209.** At no time may there be more than 25 mutable rules.
-
-~~**210.** Players may not conspire or consult on the making of future rule-changes unless they are team-mates.
-
-~~The first paragraph of this rule does not apply to games by mail or computer.
 
 **211.** If two or more mutable rules conflict with one another, or if two or more immutable rules conflict with one another, then the rule with the lowest ordinal number takes precedence.
 
