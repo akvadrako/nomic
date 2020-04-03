@@ -1,11 +1,11 @@
 
-player      | order | points | VK
------------ | ----- | ------ | -- 
-akvadrako   | Ba    | 17     | 3
-RamonRB     | Be    | 11     | 3
-rknegjens   | K     | 12     | 3
-fpug        | P     | 13     | 3
-roarandrock | W     | 14     | 3
+player      | order | points | VK | class
+----------- | ----- | ------ | -- | -----
+akvadrako   | Ba    | 17     | 3  | Buddha
+RamonRB     | Be    | 11     | 3  | Peasant
+rknegjens   | K     | 12     | 3  | Peasant
+fpug        | P     | 13     | 3  | Peasant
+roarandrock | W     | 14     | 3  | Peasant
 
 ## Immutable rules
 
