@@ -1,11 +1,11 @@
 
 player      | order | points | VK
 ----------- | ----- | ------ | -- 
-akvadrako   | Ba    | -2     | 2
-RamonRB     | Be    | 11     | 2
-rknegjens   | K     | 12     | 2
-fpug        | P     | 13     | 2
-roarandrock | W     | 14     | 2
+akvadrako   | Ba    | 17     | 3
+RamonRB     | Be    | 11     | 3
+rknegjens   | K     | 12     | 3
+fpug        | P     | 13     | 3
+roarandrock | W     | 14     | 3
 
 ## Immutable rules
 
@@ -93,3 +93,18 @@ In order to *vote* on a rule *on time* the vote must be cast no later than 24 ho
 A rule is *amended* when the proposer updates the rule via a new git commit. A rule is *discussed* when a player comments on the pull request of the rule. Successive comments by the same player without a response from other players are ignored i.e. only the time of the first comment should be considered in this case.
 
 **304.** When a proposed rule-change is defeated, the player who proposed it shall subtract half of the points (rounded down to the nearest integer) he or she is about to gain in part (2) of the turn from his or her score.
+
+**306.** **Class** Each player has one class from a list in the [Class.md](./Class.md) file. Classes
+    gives specific players special abilities and otherwise override the common rules for one player.
+        
+- The default class for all players is `Peasant`.
+- Classes do not count as rules.
+- Unless otherwise specified, classes also overrride later rules.
+    - Note: Unless this rule is immutable, classes cannot override immutable rules.
+- A player may change their class on their turn, after their proposal is voted on. They should do this
+  by adding a comment in the PR. This change will occur after points are calculated.
+- Instead of effectively mutating the rule list, a player may add, remove or amend a class. They
+  do this formally by proposing the *null rule* and patching the *Class.md* file. The proposal
+  will be voted on as normally done for rule changes.
+- The *null rule* is "This rule has no effect and is immediately repealed."
+
