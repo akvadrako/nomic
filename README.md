@@ -108,3 +108,6 @@ A rule is *amended* when the proposer updates the rule via a new git commit. A r
   will be voted on as normally done for rule changes.
 - The *null rule* is "This rule has no effect and is immediately repealed."
 
+**307.** **The 'Fruits' side game**
+
+While this rule is in effect a side game named 'Fruits' is played. For rules on this game see the accompanying file 'fruits.md'
