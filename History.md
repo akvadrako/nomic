@@ -1,6 +1,8 @@
 *What happened during each proposal?*
 
-**306.** New rule.
+**307.** New rule failed with 3/5 votes, introducing the fruit game.
+
+**306.** New rule passed with 5/5 votes. Introduces classes.
 
 **305.** Repeal of §210 passed with 5/5 votes.
 
