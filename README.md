@@ -3,7 +3,7 @@ player      | order | points | VK | class
 ----------- | ----- | ------ | -- | -----
 akvadrako   | Ba    | 17     | 2  | Buddha
 RamonRB     | Be    | 16     | 4  | Policeman
-rknegjens   | K     | 12     | 2  | Peasant
+rknegjens   | K     | 12     | 3  | Lobbbyist
 fpug        | P     | 13     | 2  | Peasant
 roarandrock | W     | 14     | 2  | Peasant
 
@@ -109,13 +109,17 @@ A rule is *amended* when the proposer updates the rule via a new git commit. A r
 - The *null rule* is "This rule has no effect and is immediately repealed."
 
 **308.** Players can *speculate* on the future *relative score* of other players by *investing* an integer amount of their available points.
-The *relative score* is defined as the the score of the player divided by the average of score of all players at that moment.
+The *relative score* is defined as the score of the player divided by the average of score of all players at that moment.
 To *speculate* is to predict whether the relative score of the other player will *increase* or *decrease* (a "long" or "short" position).
-If the player has speculated correctly at the moment of evaluation, their initial investment multiplied by the difference in *relative score*, rounded up, is awarded to them.
-For example, if the investment was 20 points and other player's relative score increased from 11 to 12.5, then `20 * (1 + |12.5 - 11| / 11) = 23` points are awarded.
+If the player has speculated correctly at the moment of evaluation, they are awarded a *return in points* as follows:
+their initial investment multiplied by one plus the number of complete voting rounds (started and concluded) divided by the number of players at the moment of investment, rounded down, i.e. `(<initial investment> * (1 + <voting rounds>/<number players>)`.
 If they speculated incorrectly, their investment is lost.
 
-A player can speculate at any time by submitting a pull-request into the `trading.md` file.
-The player specifies: the amount to invest (and deducts this from their score), the player they are speculating on and their current relative score, and whether this will increase or decrease.
+A player can speculate at any time by submitting a pull-request into the `investments.md` file.
+The player specifies: the amount to invest (and deducts this from their score), the player they are speculating on and their current relative score, whether this will increase or decrease, and the moment of evaluation.
 The player must choose an exact moment in the future at which the speculation is evaluated, which must be at least 7 full days after placing the investment.
 There can only be one active investment per player. Submitting a new investment invalidates and forfeits any previous investment.
+
+Scoring for succesful speculation: 
+
+> Ff the investment was 17 points, there are 5 players and 4 voting rounds have both started and concluded from the momment of investment to the moment of evaluation, then `21 * (1 + 4 / 5) = 37` points are awarded.
