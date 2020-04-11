@@ -111,15 +111,16 @@ A rule is *amended* when the proposer updates the rule via a new git commit. A r
 **308.** Players can *speculate* on the future *relative score* of other players by *investing* an integer amount of their available points.
 The *relative score* is defined as the score of the player divided by the average score of all players at that moment.
 To *speculate* is to predict whether the relative score of the other player will *increase* or *decrease* (a "long" or "short" position).
-If the player has speculated correctly at the moment of evaluation, they are awarded a *return in points* as follows:
-their initial investment multiplied by one plus the number of complete voting rounds (started and concluded) divided by the number of players at the moment of investment, rounded down, i.e. `(<initial investment> * (1 + <voting rounds>/<number players>)`.
-If they speculated incorrectly, their investment is lost.
+If the player has speculated correctly at the moment of evaluation, they can keep their initial investment and in addition are immediately awarded a *return in points* as follows:
+their initial investment multiplied by the number of complete voting rounds (started and concluded) divided by the number of players at the moment of investment, rounded down, i.e. `(<initial investment> * <voting rounds>/<number players>`.
+If they speculated incorrectly, their investment is lost and the corresponding points are immediately deducted from their score.
 
 A player can speculate at any time by submitting a pull-request into the `investments.md` file.
-The player specifies: the amount to invest (and deducts this from their score), the player they are speculating on and their current relative score, whether this will increase or decrease, and the moment of evaluation.
+The player specifies: the amount to invest (not yet deducted from their score), the player they are speculating on and their current relative score, whether this will increase or decrease, and the moment of evaluation.
 The player must choose an exact moment in the future at which the speculation is evaluated, which must be at least 7 full days after placing the investment.
-There can only be one active investment per player. Submitting a new investment invalidates and forfeits any previous investment.
+There can only be one active investment per player.
+Submitting a new investment forfeits any previous investments, which must be immediately deducted from the player's score.
 
 Scoring example for succesful speculation: 
 
-> If the investment was 17 points, there are 5 players and 4 voting rounds have both started and concluded from the momment of investment to the moment of evaluation, then `21 * (1 + 4 / 5) = 37` points are awarded.
+> If the investment was 21 points, there are 5 players and 4 voting rounds have both started and concluded from the momment of investment to the moment of evaluation, then `21 * 4 / 5 = 16` points are awarded as the return in addition to keeping the orginal investment of 21 points.
