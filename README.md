@@ -108,16 +108,18 @@ A rule is *amended* when the proposer updates the rule via a new git commit. A r
   will be voted on as normally done for rule changes.
 - The *null rule* is "This rule has no effect and is immediately repealed."
 
-**308.** Players can *speculate* on the future *relative score* of other players by *investing* an integer amount of their available points.
+**308.** Players can *speculate* on the future *relative score* of other players (not their own) by *investing* an integer amount of their available points.
 The *relative score* is defined as the score of the player divided by the average score of all players at that moment.
 To *speculate* is to predict whether the relative score of the other player will *increase* or *decrease* (a "long" or "short" position).
-If the player has speculated correctly at the moment of evaluation, they can keep their initial investment and in addition are immediately awarded a *return in points* as follows:
-their initial investment multiplied by the number of complete voting rounds (started and concluded) divided by the number of players at the moment of investment, rounded down, i.e. `(<initial investment> * <voting rounds>/<number players>`.
+If the player has speculated correctly at the *moment of evaluation* (defined below), they can keep their initial investment and in addition are immediately awarded a *return in points* as follows:
+their initial investment multiplied by the number of *complete voting rounds* (defined below) divided by the number of players at the moment of investment, rounded down, i.e. `(<initial investment> * <voting rounds>/<number players>`.
 If they speculated incorrectly, their investment is lost and the corresponding points are immediately deducted from their score.
 
 A player can speculate at any time by submitting a pull-request into the `investments.md` file.
-The player specifies: the amount to invest (not yet deducted from their score), the player they are speculating on and their current relative score, whether this will increase or decrease, and the moment of evaluation.
-The player must choose an exact moment in the future at which the speculation is evaluated, which must be at least 7 full days after placing the investment.
+The player specifies: the amount to invest (not yet deducted from their score), the player they are speculating on and their current relative score, whether this will increase or decrease, and the *moment of evaluation*.
+A *moment of evaluation* is always directly after a rule proposal is concluded, and can be specified by the rule number of this proposal.
+A *complete voting round* is defined as a rule proposal that has been both proposed and concluded after the investment was made
+i.e. if there is an active proposal that has not yet been voted at the moment an investment is made, that rule does not count as a *complete voting round*.
 There can only be one active investment per player.
 Submitting a new investment forfeits any previous investments, which must be immediately deducted from the player's score.
 
