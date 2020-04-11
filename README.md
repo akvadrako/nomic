@@ -109,7 +109,7 @@ A rule is *amended* when the proposer updates the rule via a new git commit. A r
 - The *null rule* is "This rule has no effect and is immediately repealed."
 
 **308.** Players can *speculate* on the future *relative score* of other players by *investing* an integer amount of their available points.
-The *relative score* is defined as the score of the player divided by the average of score of all players at that moment.
+The *relative score* is defined as the score of the player divided by the average score of all players at that moment.
 To *speculate* is to predict whether the relative score of the other player will *increase* or *decrease* (a "long" or "short" position).
 If the player has speculated correctly at the moment of evaluation, they are awarded a *return in points* as follows:
 their initial investment multiplied by one plus the number of complete voting rounds (started and concluded) divided by the number of players at the moment of investment, rounded down, i.e. `(<initial investment> * (1 + <voting rounds>/<number players>)`.
@@ -120,6 +120,6 @@ The player specifies: the amount to invest (and deducts this from their score), 
 The player must choose an exact moment in the future at which the speculation is evaluated, which must be at least 7 full days after placing the investment.
 There can only be one active investment per player. Submitting a new investment invalidates and forfeits any previous investment.
 
-Scoring for succesful speculation: 
+Scoring example for succesful speculation: 
 
-> Ff the investment was 17 points, there are 5 players and 4 voting rounds have both started and concluded from the momment of investment to the moment of evaluation, then `21 * (1 + 4 / 5) = 37` points are awarded.
+> If the investment was 17 points, there are 5 players and 4 voting rounds have both started and concluded from the momment of investment to the moment of evaluation, then `21 * (1 + 4 / 5) = 37` points are awarded.
