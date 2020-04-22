@@ -1,11 +1,13 @@
 
 player      | order | points | VK | class
 ----------- | ----- | ------ | -- | -----
-akvadrako   | Ba    | 17     | 2  | Buddha
-RamonRB     | Be    | 16     | 4  | Policeman
-rknegjens   | K     | 12     | 2  | Peasant
-fpug        | P     | 13     | 2  | Peasant
-roarandrock | W     | 14     | 2  | Peasant
+akvadrako   | Ba    | 17     | 4  | Buddha
+RamonRB     | Be    | 16     | 1  | Police
+rknegjens   | K     | 12     | 4  | Lobbyist
+fpug        | P     | 13     | 0  | *Zombie*
+roarandrock | W     | 14     | 4  | Police
+
+Mutable Rules: 13
 
 ## Immutable rules
 
@@ -68,7 +70,6 @@ In mail and computer games, the winner is the first player to achieve 200 (posit
 If at least one of the rules in conflict explicitly says of itself that it defers to another rule (or type of rule) or takes precedence over another rule (or type of rule), then such provisions shall supersede the numerical method for determining precedence.
 
 If two or more rules claim to take precedence over one another or to defer to one another, then the numerical method again governs.
-
 **212.** If players disagree about the legality of a move or the interpretation or application of a rule, then the player preceding the one moving is to be the Judge and decide the question. Disagreement for the purposes of this rule may be created by the insistence of any player. This process is called invoking Judgment.
 
 When Judgment has been invoked, the next player may not begin his or her turn without the consent of a majority of the other players.
@@ -107,10 +108,13 @@ A rule is *amended* when the proposer updates the rule via a new git commit. A r
 - The *null rule* is "This rule has no effect and is immediately repealed."
 
 **309.** Voting for a rule-change is completed when one of these two conditions is met (if both conditions are true, then only the condition that happened first):
-(1) The rule-change is approved by majority of players. If this condition is met, then the rule change is adopted. Majority is defined for 5 or more players as half the players rounded up (i.e. 3 players in a 5 player game). 
+
+(1) The rule-change is approved by majority of players. If this condition is met, then the rule change is adopted.
+    Majority is defined for 5 or more players as half the players rounded up (i.e. 3 players in a 5 player game). 
 (1a) In a four player game, majority is defined as 3 players. 
 (1b) In a three player game, majority is defined as 2 players.
 (1c) In a one or two player game, majority is defined as all players.
 (2) The rule-change is rejected by majority of players, same as defined in (1). If this condition is met, then the rule change is not adopted. 
-(3) In case of a tie (i.e. 2 approve, 2 reject in a four player game) then karma points will be the tie breaker. Each side will tally their total karma points and the side with the largest sum of karma points will be considered the majority. 
+(3) In case of a tie (i.e. 2 approve, 2 reject in a four player game) then karma points will be the tie breaker.
+    Each side will tally their total karma points and the side with the largest sum of karma points will be considered the majority. 
 (3a) In case of a second tie in karma points, the youngest player will decide if the rule is approved or rejected. 

@@ -11,6 +11,16 @@ On your turn:
 
 Now everybody votes on the [Pull request](https://github.com/akvadrako/nomic/pulls).
 
+### Scoring
+
+Active player
+- gain (proposal# - 291) * up-votes / total-votes (rounded to closest)
+- if defeated, gain half that (round up)
+
+All players
+- 1 VK for each action performed on time.
+- -1 VK for each 24 hours late (rounded to closest)
+
 ### Rule formatting
 
 Write like this:
