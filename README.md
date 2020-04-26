@@ -19,8 +19,6 @@ Mutable Rules: 13
 
 **104.** All rule-changes proposed in the proper way shall be voted on. They will be adopted if and only if they receive the required number of votes.
 
-**105.** Every player is an eligible voter. Every eligible voter must participate in every vote on rule-changes.
-
 **106.** All proposed rule-changes shall be written down before they are voted on. If they are adopted, they shall guide play in the form in which they were voted on.
 
 **107.** No rule-change may take effect earlier than the moment of the completion of the vote that adopted it, even if its wording explicitly states otherwise. No rule-change may have retroactive application.
@@ -118,3 +116,5 @@ A rule is *amended* when the proposer updates the rule via a new git commit. A r
 - (3) In case of a tie (i.e. 2 approve, 2 reject in a four player game) then karma points will be the tie breaker.
     Each side will tally their total karma points and the side with the largest sum of karma points will be considered the majority. 
     - (3a) In case of a second tie in karma points, the youngest player will decide if the rule is approved or rejected. 
+
+**310.** Every player is an eligible voter. Every eligible voter must participate in every vote on rule-changes.
