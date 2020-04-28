@@ -2,7 +2,7 @@
 player      | order | points | VK | class
 ----------- | ----- | ------ | -- | -----
 akvadrako   | Ba    | 40     | 5  | Buddha
-RamonRB     | Be    | 16     | 0  | Police
+RamonRB     | Be    | 56     | 0  | Police
 rknegjens   | K     | 17     | 3  | Lobbyist
 fpug        | P     | 13     | 0  | *Zombie*
 roarandrock | W     | 32     | 5  | Police
@@ -92,7 +92,7 @@ A rule is *amended* when the proposer updates the rule via a new git commit. A r
 **304.** When a proposed rule-change is defeated, the player who proposed it shall subtract half of the points (rounded down to the nearest integer) he or she is about to gain in part (2) of the turn from his or her score.
 
 **306.** **Class** Each player has one class from a list in the [Class.md](./Class.md) file. Classes
-    gives specific players special abilities and otherwise override the common rules for one player.
+    give specific players special abilities and otherwise override the common rules for one player.
         
 - The default class for all players is `Peasant`.
 - Classes do not count as rules.
