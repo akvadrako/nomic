@@ -118,3 +118,5 @@ A rule is *amended* when the proposer updates the rule via a new git commit. A r
     - (3a) In case of a second tie in karma points, the youngest player will decide if the rule is approved or rejected. 
 
 **310.** Every player is an eligible voter. Every eligible voter must participate in every vote on rule-changes.
+
+**311.** For every day after the first between a rule proposal and the final vote (resulting in the rule being approved or denied), the amount of points needed to win this game is reduced. The amount to subtract from the total points needed to win the game is calculated by summing the number of 24-hour periods between proposal and result, rounded down to a whole number, minus 1. 
