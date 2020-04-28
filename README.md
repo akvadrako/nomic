@@ -1,13 +1,14 @@
 
 player      | order | points | VK | class
 ----------- | ----- | ------ | -- | -----
-akvadrako   | Ba    | 40     | 5  | Buddha
-RamonRB     | Be    | 56     | 0  | Police
+akvadrako   | Ba    | 40     | 6  | Buddha
+RamonRB     | Be    | 76     | 1  | Police
 rknegjens   | K     | 17     | 3  | Lobbyist
 fpug        | P     | 13     | 0  | *Zombie*
-roarandrock | W     | 32     | 5  | Police
+roarandrock | W     | 32     | 6  | Police
 
-Mutable Rules: 14
+Mutable Rules: 15
+Target Points: 200 (§208, §311)
 
 ## Immutable rules
 
