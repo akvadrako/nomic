@@ -4,10 +4,10 @@
 
 Peasants have no special abilities.
 
-## Lobbbyist
+## Lobbyist
 
 The lobbyist earns double points for accepted proposals. He may also offer other players
-some of this points in exchange for approving his rule.
+some of these points in exchange for approving his rule.
 
 ## Buddha
 
@@ -28,5 +28,5 @@ of his last turn. For every word less, he gains 1 point.
 
 ## Police
 
-The police gains 10 points for every mispelling or broken rule they point out, except their own.
+The police gains 10 points for every misspelling or broken rule they point out, except their own.
 
