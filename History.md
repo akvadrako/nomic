@@ -1,5 +1,14 @@
 *What happened during each proposal?*
 
+**312** Amendment of §201 accepted with 4/4 votes: Old text:
+
+> 201. Players shall alternate in clockwise order, taking one whole turn apiece. Turns may not be skipped or passed, and parts of turns may not be omitted. All players begin with zero points.
+> In mail and computer games, players shall alternate in alphabetical order by surname.
+
+**311** New Rule 311 accepted.
+
+**310** Rule 105 is made mutable.
+
 **309** Amendment of §203 accepted with 5/5 votes. Old text:
 
 > 203. A rule-change is adopted if and only if the vote is unanimous among the eligible voters. If this rule is not
