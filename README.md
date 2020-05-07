@@ -46,10 +46,6 @@ If a rule is repealed and reenacted, it receives the number of the proposal to r
 
 ## Mutable rules
 
-**201.** Players shall alternate in clockwise order, taking one whole turn apiece. Turns may not be skipped or passed, and parts of turns may not be omitted. All players begin with zero points.
-
-In mail and computer games, players shall alternate in alphabetical order by surname.
-
 **202.** One turn consists of two parts in this order: (1) proposing one rule-change and having it voted on, and (2) throwing one die once and adding the number of points on its face to one's score.
 
 In mail and computer games, instead of throwing a die, players subtract 291 from the ordinal number of their proposal and multiply the result by the fraction of favorable votes it received, rounded to the nearest integer. (This yields a number between 0 and 10 for the first player, with the upper limit increasing by one each turn; more points are awarded for more popular proposals.)
@@ -121,3 +117,9 @@ A rule is *amended* when the proposer updates the rule via a new git commit. A r
 **310.** Every player is an eligible voter. Every eligible voter must participate in every vote on rule-changes.
 
 **311.** For every day after the first between a rule proposal and the final vote (resulting in the rule being approved or denied), the amount of points needed to win this game is reduced. The amount to subtract from the total points needed to win the game is calculated by summing the number of 24-hour periods between proposal and result, rounded down to a whole number, minus 1. 
+
+**312.** (Amends rule §201) Players may take a turn whenever a turn is not currently in progress. A player may not take two turns in a row. Once a turn is started it may not be skipped or passed, and parts of turns may not be omitted. All players begin with zero points.
+
+If multiple players attempt to take a turn at the same time, the current turn will be that of the player who can show they were the first to start e.g. via a GitHub pull request. In this case any other attempts to start a turn are void and should be deleted. No turn order or queue is established by failed turn attempts.
+
+Rule §303 applies equally to all players that are eligible for *proposing* a new rule i.e. if a new rule is not proposed *on time* all such players will receive the same voting karma penalty.
