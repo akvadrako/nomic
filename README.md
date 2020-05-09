@@ -1,7 +1,7 @@
 
 player      | order | points | VK | class
 ----------- | ----- | ------ | -- | -----
-akvadrako   | Ba    | 40     |  7 | Buddha
+akvadrako   | Ba    | 47     |  7 | Buddha
 RamonRB     | Be    | 76     |  1 | Police
 rknegjens   | K     | 59     | -1 | Lobbyist
 fpug        | P     | 13     |  0 | *Zombie*
