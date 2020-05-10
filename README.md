@@ -123,3 +123,7 @@ A rule is *amended* when the proposer updates the rule via a new git commit. A r
 If multiple players attempt to take a turn at the same time, the current turn will be that of the player who can show they were the first to start e.g. via a GitHub pull request. In this case any other attempts to start a turn are void and should be deleted. No turn order or queue is established by failed turn attempts.
 
 Rule §303 applies equally to all players that are eligible for *proposing* a new rule i.e. if a new rule is not proposed *on time* all such players will receive the same voting karma penalty.
+
+**313.** The first 3 players who approve this rule earn 50 extra points. The implied vote from the active player is counted first.
+
+Players may not propose rules that immediately give themselves or other players extra points, for example this rule.
