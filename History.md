@@ -1,5 +1,7 @@
 *What happened during each proposal?*
 
+**313** New rule 313 passed with 2/2 votes.
+
 **312** Amendment of §201 accepted with 4/4 votes: Old text:
 
 > 201. Players shall alternate in clockwise order, taking one whole turn apiece. Turns may not be skipped or passed, and parts of turns may not be omitted. All players begin with zero points.
