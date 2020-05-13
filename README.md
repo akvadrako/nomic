@@ -1,14 +1,14 @@
 
 player      | points | VK | class
 ----------- | ------ | -- | -----
-akvadrako   | 108    |  8 | Buddha
-RamonRB     | 126    |  2 | Police
-rknegjens   | 59     |  0 | Lobbyist
+akvadrako   | 108    |  9 | Buddha
+RamonRB     | 126    |  3 | Police
+rknegjens   | 59     |  1 | Lobbyist
 fpug        | 13     |  0 | *Zombie*
-roarandrock | 32     |  8 | Police
+roarandrock | 55     |  9 | Dark Buddhist
 
 Mutable Rules: 16
-Target Points: 199 (§208, §311)
+Target Points: 198 (§208, §311)
 
 ## Immutable rules
 

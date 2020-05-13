@@ -54,6 +54,7 @@ Players that started the game but have stopped playing. A player is assigned the
 ## Necromancer
 
 The Necromance gains the voting powers of zombies. For each zombie in the game, the necromancer MAY cast an extra vote for rule proposals. 
+
 1. This extra vote does not apply outside of rule proposals (for example, does not apply in assigning zombie class). 
 2. The extra Zombie vote is treated as having zero VK
 3. After using this power the Necromance will lose all karma and have zero VK

@@ -1,6 +1,8 @@
 *What happened during each proposal?*
 
-**313** New rule 313 passed with 2/2 votes.
+**314** Class changes passed with 4/4 votes.
+
+**313** New rule 313 passed with 2/4 votes.
 
 **312** Amendment of §201 accepted with 4/4 votes: Old text:
 
