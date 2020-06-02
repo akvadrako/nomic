@@ -6,14 +6,14 @@ Change is inevitable. We should seek a new way for this, somehow it needs to be 
 
 player      | points | VK | class
 ----------- | ------ | -- | -----
-akvadrako   | 108    |  0 | Buddha
+akvadrako   | 132    |  2 | Buddha
 RamonRB     | 126    |  0 | Police
 rknegjens   | 59     |  0 | Lobbyist
 fpug        | 13     |  0 | *Zombie*
-roarandrock | 55     |  9 | Dark Buddhist
+roarandrock | 55     |  1 | Dark Buddhist
 
 Mutable Rules: 16
-Target Points: 198 (§208, §311)
+Target Points: 191 (§208, §311)
 
 ## Immutable rules
 
