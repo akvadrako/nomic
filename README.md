@@ -1,9 +1,14 @@
+## Wisdom
+
+Change is inevitable. We should seek a new way for this, somehow it needs to be inspiring. Maybe it's just too random or maybe it's just too clunky. If one looks deep into oneself, one may find the answer. If you can find the answer, let it seep through your bloodstream and spill into the world.
+
+## Score
 
 player      | points | VK | class
 ----------- | ------ | -- | -----
-akvadrako   | 108    |  9 | Buddha
-RamonRB     | 126    |  3 | Police
-rknegjens   | 59     |  1 | Lobbyist
+akvadrako   | 108    |  0 | Buddha
+RamonRB     | 126    |  0 | Police
+rknegjens   | 59     |  0 | Lobbyist
 fpug        | 13     |  0 | *Zombie*
 roarandrock | 55     |  9 | Dark Buddhist
 
