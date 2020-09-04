@@ -1,6 +1,6 @@
 ## Wisdom
 
-Change is inevitable. We should seek a new way for this, somehow it needs to be inspiring. Maybe it's just too random or maybe it's just too clunky. If one looks deep into oneself, one may find the answer. If you can find the answer, let it seep through your bloodstream and spill into the world.
+Everything is forgotten 
 
 ## Score
 
